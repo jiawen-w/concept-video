@@ -1,0 +1,28 @@
+# 密钥（绝对不进 git）
+config_local.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# 其他脚本（各自独立维护，不进本仓库）
+xhs_auto.py
+book_video.py
+math_video.py
+photo_album_video.py
+shidian_style.py
+article2douyin/
+smart-clip/
+xhs-auto/
+kids-learning/
+儿童*/
+
+# IDE / 系统文件
+.DS_Store
+.idea/
+.claude/
+*.log
+*.txt
